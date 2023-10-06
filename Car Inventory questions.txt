@@ -1,0 +1,40 @@
+Study the dataset carefully!
+
+From the *Car ID* column lies all you need to fill the other columns
+
+1. The first 2 letters is the *Make*, extract it to the *Make* column e.g FD
+
+2. From the *Make* column, generate the *Make Full Name*, using this table below e.g Ford
+
+CR	Chrysler										
+FD	Ford										
+GM	General Motors										
+HO	Honda										
+HY	Hyundai										
+TY	Toyota										
+												
+
+3. From the *Car ID* column, generate the *Model* column, the 5th to 7th letters represents the Model of the car e.g MTG
+
+4. From the *Model* column, generate the *Model Full Name* using the table below; e.g Mustang
+CAM	Camry
+CAR	Caravan
+CIV	Civic
+COR	Corolla
+ELA	Elantra
+FCS	Focus
+MTG	Mustang
+ODY	Odyssey
+PTC	PT Cruiser
+SLV	Silvarado
+
+
+5. The next 2 (06) in the *Car ID* is the production year of the car, Fill it in the *Manufacture Year column*
+
+6. Calculate the *Age* column using the *Manufacture Year*
+
+7. Using the already provided miles covered, calculate the *Miles Per Year* column
+
+8. The Covered column should tell whether the car has covered its warantee miles provided on the *Warantee Miles* column tellig if the warantee is covered or not
+
+9. The *New Car ID* should be the *Make* value, the last 2 letter of the production year, the *Model* value, the first 3 letters of the letters of the colour in CAPS, and the last 3 letters of the *Car ID* value, E.g. FD06MTGBLA001
